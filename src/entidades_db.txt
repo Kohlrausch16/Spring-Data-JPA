@@ -1,0 +1,17 @@
+BOOK
+
+id                  varchar    UUID
+isbn                varchar
+title               varchar
+release_date        date
+kind                varchar
+price               numeric
+writer_id           varchar
+
+
+
+WRITER
+id                  varchar    UUID
+name                varchar
+birthdate           date
+nationality         varchar
