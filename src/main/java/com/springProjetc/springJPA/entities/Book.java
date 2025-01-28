@@ -31,9 +31,6 @@ public class Book {
     @Column(nullable = false)
     private Double price;
 
-
-    private Writer writer;
-
     @Deprecated
     public Book(){
 
@@ -47,4 +44,8 @@ public class Book {
         this.price = price;
         this.writer = writer;
     }
+
+    @ManyToOne
+    @JoinColumn(name = "writer_id")
+    private Writer writer;
 }

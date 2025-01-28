@@ -35,4 +35,7 @@ public class Writer {
         this.birthdate = birthdate;
         this.nationality = nationality;
     }
+
+    @OneToMany
+    private Set<Book> books;
 }
