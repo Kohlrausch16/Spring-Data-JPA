@@ -18,18 +18,18 @@ public class DataBasePollConfiguration {
     String username;
     @Value("${spring.datasource.password}")
     String password;
-    @Value("${spring.datasource.driver}")
+    @Value("${spring.datasource.driver-class-name}")
     String driver;
 
-    @Bean
-    public DataSource dataSource(){
+    //@Bean
+   /* public DataSource dataSource(){
         DriverManagerDataSource ds = new DriverManagerDataSource();
         ds.setUrl(url);
         ds.setUsername(username);
         ds.setPassword(password);
         ds.setDriverClassName(driver);
         return ds;
-    }
+    }*/
 
     @Bean
     public DataSource hikariDataSource(){

@@ -2,7 +2,7 @@ spring:
     aplication:
         name: springJPA
     datasource:
-        url: jdbc:postgres://localhost:5432/jpa_database
+        url: jdbc:postgresql://localhost:5432/jpa_database
         username: kohlrausch
         password: password
-        driver-class-name: org.postgres.Driver
+        driver-class-name: org.postgresql.Driver
