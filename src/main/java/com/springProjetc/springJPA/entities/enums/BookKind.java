@@ -2,7 +2,33 @@ package com.springProjetc.springJPA.entities.enums;
 
 public enum BookKind {
 
-
-
+    ROMANCE,
+    FICCAO_CIENTIFICA,
+    FANTASIA,
+    MISTERIO,
+    TERROR,
+    SUSPENSE,
+    AVENTURA,
+    DRAMA,
+    HISTORICO,
+    BIOMEMICA,
+    POESIA,
+    COMEDIA,
+    CRIME,
+    THRILLER,
+    FICCAO_POLICIAL,
+    INFANTO_JUVENIL,
+    ENSAIO,
+    AUTOAJUDA,
+    FILOSOFIA,
+    ESPIRITUALIDADE,
+    POLITICA,
+    RELIGIOSO,
+    ROMANCE_EROTICO,
+    DOCUMENTARIO,
+    FICCAO_HISTORICA,
+    GASTRONOMIA,
+    ARTE,
+    VIAGEM;
 
 }

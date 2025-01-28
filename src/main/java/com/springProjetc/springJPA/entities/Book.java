@@ -7,8 +7,7 @@ import lombok.*;
 
 @Entity
 @Table(name = "book")
-@Getter
-@Setter
+@Data
 public class Book {
 
     @Id
@@ -25,6 +24,7 @@ public class Book {
     @Column(nullable = false)
     private Date releaseDate;
 
+    @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private BookKind kind;
 
