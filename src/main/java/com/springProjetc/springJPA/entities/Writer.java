@@ -2,6 +2,7 @@ package com.springProjetc.springJPA.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import java.util.*;
 
@@ -37,5 +38,6 @@ public class Writer {
     }
 
     @OneToMany
+    @
     private Set<Book> books;
 }
